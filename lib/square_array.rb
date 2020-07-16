@@ -5,5 +5,5 @@ def square_array(numbers)
     new_numbers << array[index] ** 2
     index += 1
   end
-  new_numbers
+  return new_numbers
 end
